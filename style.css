@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.nav-bar img{
+    width: 100px;
+    height: 50px;
+    
+}
+.nav-bar img:hover{
+    cursor: pointer;    
+}
+.nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.nav-bar ul li:hover{
+    cursor: pointer;
+    color: purple;
+    font-weight: bold;
+}
+
