@@ -12,6 +12,13 @@
     color: white;
 }
 
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
 .nav-bar img{
     width: 100px;
     height: 50px;
@@ -27,7 +34,40 @@
 }
 .nav-bar ul li:hover{
     cursor: pointer;
-    color: purple;
+    font-weight: bold;
+}
+.nav-bar ul li active{
+    color: wheat;
+    font-size: 20px;
     font-weight: bold;
 }
 
+#main-body{
+    width: 100vw;
+    height: 100vh;
+    background: url('./assets/mirag3_2.png') no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+#item-body{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding: 10px 30px;
+}
+#item-body .item-holder{
+    width: 300px;
+    height: 300px;
+    margin:30px;
+
+}
+
+#item-body .item-holder img{
+    width: 280px;
+    height: 280px;
+}
